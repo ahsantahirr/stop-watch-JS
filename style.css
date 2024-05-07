@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    color: white;
+    height: 100vh;
+    
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: bolder;
+    gap: 10px;
+}
+
+.btn{
+    height: 60px;
+    width: 120px;
+    border: 2px solid #000; /* Example border */
+    border-radius: 25px; /* Adjust the value to control the roundness */
+    padding: 20px; /* Optional: Add padding to make the content look nice */
+    background-color: #f0f0f0; /* Example background color */
+    background-clip: padding-box;
+    overflow: hidden;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#start{
+    background-color: rgb(108, 151, 225);
+}
+#stop{
+    background-color: maroon;
+    display: none;
+}
+#resume{
+    background-color: rgb(108, 151, 225);
+    display: none;
+}
+#reset{
+    background-color: rgb(43, 46, 52);
+    display: none;
+}
+.sup>sup{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 842px) {
+    .container2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .btn{
+        height: 50px;
+        width: 100px;
+        border: 2px solid #000; /* Example border */
+        border-radius: 25px; /* Adjust the value to control the roundness */
+        padding: 10px; /* Optional: Add padding to make the content look nice */
+        background-color: #f0f0f0; /* Example background color */
+        background-clip: padding-box;
+        overflow: hidden;
+        color: white;
+        font-size: small;
+        font-weight: bolder;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .sup>sup{
+        font-size: 10px;
+    }
+    .container1{
+        position: relative;
+        top: 200px;
+    }
+  }

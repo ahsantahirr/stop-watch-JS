@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Stop Watch</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container2">
+            <div class="box" id="minutes">00</div> <span class="sup"><sup>min</sup> </span>
+            <span class="dots">:</span>
+            <div class="box" id="seconds">00</div>  <span class="sup"><sup>sec</sup> </span>
+            <span class="dots">.</span>
+            <div class="box" id="milliseconds">00</div> <span class="sup"><sup>ms</sup> </span>
+        </div>
+
+        <div class="container1">
+            <button class="btn" id="start" onclick="start()"> Start </button>
+            <button class="btn" id="stop" onclick="stop()">Stop</button>
+            <button class="btn" id="resume" onclick="resume()">Resume</button>
+            <button class="btn" id="reset" onclick="reset()">Reset</button>
+        </div>
+
+
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
